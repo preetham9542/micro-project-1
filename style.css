@@ -16,7 +16,7 @@ img {
 
 #topbox{
     background-color: #ffcd9e;
-    height: 100%;
+    height: 65vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -107,9 +107,8 @@ button{
 }
 
 #bot{
-    background-color: #282828;
-    /* width: 100%;
-    height: 100%; */
+    background-color: #282828; 
+    height: 35vh;
     display: flex;
     flex-direction: row;
     font-family: Inter;
@@ -122,9 +121,11 @@ button{
 }
 #bottomleft{
     justify-content: flex-start;
+    margin-top: 30px;
 }
 
 #bottomright{
+    margin-top : 30px;
     justify-content:right; 
     text-align: right;
 }
